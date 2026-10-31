@@ -1,2 +1,4 @@
 /obj/item/robot_module/drone/fibbot
-	software += /datum/computer_file/program/supermatter_monitor
+	software += list(
+		/datum/computer_file/program/supermatter_monitor
+	)
